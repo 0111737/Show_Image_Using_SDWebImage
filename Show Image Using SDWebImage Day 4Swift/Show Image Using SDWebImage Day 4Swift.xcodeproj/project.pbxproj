@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D43C37A0118906CC093DFD /* Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB96F26DF0285D9625C12C07 /* Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework */; };
+		EBAFCF5C2AACF01C00E6227E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFCF5B2AACF01C00E6227E /* AppDelegate.swift */; };
+		EBAFCF5E2AACF01C00E6227E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFCF5D2AACF01C00E6227E /* SceneDelegate.swift */; };
+		EBAFCF602AACF01C00E6227E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFCF5F2AACF01C00E6227E /* ViewController.swift */; };
+		EBAFCF632AACF01C00E6227E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAFCF612AACF01C00E6227E /* Main.storyboard */; };
+		EBAFCF652AACF05C00E6227E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAFCF642AACF05C00E6227E /* Assets.xcassets */; };
+		EBAFCF682AACF05C00E6227E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAFCF662AACF05C00E6227E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3875D147365B502A797D010C /* Pods-Show Image Using SDWebImage Day 4Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Show Image Using SDWebImage Day 4Swift.release.xcconfig"; path = "Target Support Files/Pods-Show Image Using SDWebImage Day 4Swift/Pods-Show Image Using SDWebImage Day 4Swift.release.xcconfig"; sourceTree = "<group>"; };
+		92C3D4403C8A183F5AC1372A /* Pods-Show Image Using SDWebImage Day 4Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Show Image Using SDWebImage Day 4Swift.debug.xcconfig"; path = "Target Support Files/Pods-Show Image Using SDWebImage Day 4Swift/Pods-Show Image Using SDWebImage Day 4Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		BB96F26DF0285D9625C12C07 /* Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAFCF582AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show Image Using SDWebImage Day 4Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAFCF5B2AACF01C00E6227E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBAFCF5D2AACF01C00E6227E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBAFCF5F2AACF01C00E6227E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBAFCF622AACF01C00E6227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAFCF642AACF05C00E6227E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAFCF672AACF05C00E6227E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAFCF692AACF05C00E6227E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAFCF552AACF01C00E6227E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D43C37A0118906CC093DFD /* Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1826D02384187C3FF77E58C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92C3D4403C8A183F5AC1372A /* Pods-Show Image Using SDWebImage Day 4Swift.debug.xcconfig */,
+				3875D147365B502A797D010C /* Pods-Show Image Using SDWebImage Day 4Swift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B172253D1BEA5B494A04D097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB96F26DF0285D9625C12C07 /* Pods_Show_Image_Using_SDWebImage_Day_4Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBAFCF4F2AACF01B00E6227E = {
+			isa = PBXGroup;
+			children = (
+				EBAFCF5A2AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift */,
+				EBAFCF592AACF01C00E6227E /* Products */,
+				A1826D02384187C3FF77E58C /* Pods */,
+				B172253D1BEA5B494A04D097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAFCF592AACF01C00E6227E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFCF582AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAFCF5A2AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFCF5B2AACF01C00E6227E /* AppDelegate.swift */,
+				EBAFCF5D2AACF01C00E6227E /* SceneDelegate.swift */,
+				EBAFCF5F2AACF01C00E6227E /* ViewController.swift */,
+				EBAFCF612AACF01C00E6227E /* Main.storyboard */,
+				EBAFCF642AACF05C00E6227E /* Assets.xcassets */,
+				EBAFCF662AACF05C00E6227E /* LaunchScreen.storyboard */,
+				EBAFCF692AACF05C00E6227E /* Info.plist */,
+			);
+			path = "Show Image Using SDWebImage Day 4Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAFCF572AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAFCF6C2AACF05D00E6227E /* Build configuration list for PBXNativeTarget "Show Image Using SDWebImage Day 4Swift" */;
+			buildPhases = (
+				408C7248F9A5EFE02D52BE70 /* [CP] Check Pods Manifest.lock */,
+				EBAFCF542AACF01C00E6227E /* Sources */,
+				EBAFCF552AACF01C00E6227E /* Frameworks */,
+				EBAFCF562AACF01C00E6227E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Show Image Using SDWebImage Day 4Swift";
+			productName = "Show Image Using SDWebImage Day 4Swift";
+			productReference = EBAFCF582AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAFCF502AACF01B00E6227E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EBAFCF572AACF01C00E6227E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EBAFCF532AACF01B00E6227E /* Build configuration list for PBXProject "Show Image Using SDWebImage Day 4Swift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAFCF4F2AACF01B00E6227E;
+			productRefGroup = EBAFCF592AACF01C00E6227E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAFCF572AACF01C00E6227E /* Show Image Using SDWebImage Day 4Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAFCF562AACF01C00E6227E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAFCF682AACF05C00E6227E /* LaunchScreen.storyboard in Resources */,
+				EBAFCF652AACF05C00E6227E /* Assets.xcassets in Resources */,
+				EBAFCF632AACF01C00E6227E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		408C7248F9A5EFE02D52BE70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Show Image Using SDWebImage Day 4Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAFCF542AACF01C00E6227E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAFCF602AACF01C00E6227E /* ViewController.swift in Sources */,
+				EBAFCF5C2AACF01C00E6227E /* AppDelegate.swift in Sources */,
+				EBAFCF5E2AACF01C00E6227E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBAFCF612AACF01C00E6227E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAFCF622AACF01C00E6227E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAFCF662AACF05C00E6227E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAFCF672AACF05C00E6227E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAFCF6A2AACF05C00E6227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBAFCF6B2AACF05C00E6227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAFCF6D2AACF05D00E6227E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C3D4403C8A183F5AC1372A /* Pods-Show Image Using SDWebImage Day 4Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33HX3AX9VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Show Image Using SDWebImage Day 4Swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.Show-Image-Using-SDWebImage-Day-4Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAFCF6E2AACF05D00E6227E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3875D147365B502A797D010C /* Pods-Show Image Using SDWebImage Day 4Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33HX3AX9VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Show Image Using SDWebImage Day 4Swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.Show-Image-Using-SDWebImage-Day-4Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAFCF532AACF01B00E6227E /* Build configuration list for PBXProject "Show Image Using SDWebImage Day 4Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAFCF6A2AACF05C00E6227E /* Debug */,
+				EBAFCF6B2AACF05C00E6227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAFCF6C2AACF05D00E6227E /* Build configuration list for PBXNativeTarget "Show Image Using SDWebImage Day 4Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAFCF6D2AACF05D00E6227E /* Debug */,
+				EBAFCF6E2AACF05D00E6227E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAFCF502AACF01B00E6227E /* Project object */;
+}
